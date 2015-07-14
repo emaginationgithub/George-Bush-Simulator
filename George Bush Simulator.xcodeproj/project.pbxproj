@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70A17DB1B554D1E00865847 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A17DA1B554D1E00865847 /* LaunchController.swift */; };
+		D70A17DD1B554EC800865847 /* Spooky Scary Skeletons (Remix) - Extended Mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D70A17DC1B554EC800865847 /* Spooky Scary Skeletons (Remix) - Extended Mix.mp3 */; };
 		D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */; };
 		D7223B811B5544CF002A9AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B801B5544CF002A9AA6 /* ViewController.swift */; };
 		D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7223B821B5544CF002A9AA6 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70A17DA1B554D1E00865847 /* LaunchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		D70A17DC1B554EC800865847 /* Spooky Scary Skeletons (Remix) - Extended Mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spooky Scary Skeletons (Remix) - Extended Mix.mp3"; sourceTree = "<group>"; };
 		D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "George Bush Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7223B7D1B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 				D7223B821B5544CF002A9AA6 /* Main.storyboard */,
 				D7223B851B5544CF002A9AA6 /* Images.xcassets */,
 				D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */,
+				D70A17DA1B554D1E00865847 /* LaunchController.swift */,
 				D7223B7C1B5544CF002A9AA6 /* Supporting Files */,
 			);
 			path = "George Bush Simulator";
@@ -198,6 +203,7 @@
 				D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */,
 				D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */,
 				D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */,
+				D7223B9F1B554D95002A9AA6 /* BushDidTitanic.jpg in Resources */,
 				D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7223B811B5544CF002A9AA6 /* ViewController.swift in Sources */,
+				D70A17DB1B554D1E00865847 /* LaunchController.swift in Sources */,
 				D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
