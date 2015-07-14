@@ -14,6 +14,7 @@
 		D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7223B851B5544CF002A9AA6 /* Images.xcassets */; };
 		D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */; };
 		D7223B951B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */; };
+		D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74F51891B554D2300D3DF69 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D7223B8E1B5544CF002A9AA6 /* George Bush SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "George Bush SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7223B931B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = George_Bush_SimulatorTests.swift; sourceTree = "<group>"; };
+		D74F51891B554D2300D3DF69 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,7 @@
 		D7223B7C1B5544CF002A9AA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D70A17DE1B554F2100865847 /* spooks.mp3 */,
+				D74F51891B554D2300D3DF69 /* logo.jpg */,
 				D7223B7D1B5544CF002A9AA6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */,
 				D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */,
 				D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */,
 				D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */,
