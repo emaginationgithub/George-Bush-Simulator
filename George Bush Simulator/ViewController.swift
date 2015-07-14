@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    var spooks:AVAudioPlayer = AVAudioPlayer()
 
     @IBOutlet weak var Play: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var path = NSBundle.mainBundle().pathForResource("spooks", ofType: "mp3")
+        spooks = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path!), error: nil)
+        spooks.prepareToPlay()
     }
 
     override func didReceiveMemoryWarning() {
