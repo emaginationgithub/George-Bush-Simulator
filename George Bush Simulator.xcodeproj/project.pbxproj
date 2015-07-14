@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */; };
+		D7223B811B5544CF002A9AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B801B5544CF002A9AA6 /* ViewController.swift */; };
+		D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7223B821B5544CF002A9AA6 /* Main.storyboard */; };
+		D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7223B851B5544CF002A9AA6 /* Images.xcassets */; };
+		D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */; };
+		D7223B951B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7223B8F1B5544CF002A9AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7223B711B5544CE002A9AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7223B781B5544CE002A9AA6;
+			remoteInfo = "George Bush Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "George Bush Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7223B7D1B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7223B801B5544CF002A9AA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7223B831B5544CF002A9AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7223B851B5544CF002A9AA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7223B881B5544CF002A9AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7223B8E1B5544CF002A9AA6 /* George Bush SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "George Bush SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7223B931B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = George_Bush_SimulatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7223B761B5544CE002A9AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7223B8B1B5544CF002A9AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7223B701B5544CE002A9AA6 = {
+			isa = PBXGroup;
+			children = (
+				D7223B7B1B5544CE002A9AA6 /* George Bush Simulator */,
+				D7223B911B5544CF002A9AA6 /* George Bush SimulatorTests */,
+				D7223B7A1B5544CE002A9AA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7223B7A1B5544CE002A9AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */,
+				D7223B8E1B5544CF002A9AA6 /* George Bush SimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7223B7B1B5544CE002A9AA6 /* George Bush Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */,
+				D7223B801B5544CF002A9AA6 /* ViewController.swift */,
+				D7223B821B5544CF002A9AA6 /* Main.storyboard */,
+				D7223B851B5544CF002A9AA6 /* Images.xcassets */,
+				D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */,
+				D7223B7C1B5544CF002A9AA6 /* Supporting Files */,
+			);
+			path = "George Bush Simulator";
+			sourceTree = "<group>";
+		};
+		D7223B7C1B5544CF002A9AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7223B7D1B5544CF002A9AA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7223B911B5544CF002A9AA6 /* George Bush SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */,
+				D7223B921B5544CF002A9AA6 /* Supporting Files */,
+			);
+			path = "George Bush SimulatorTests";
+			sourceTree = "<group>";
+		};
+		D7223B921B5544CF002A9AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7223B931B5544CF002A9AA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7223B781B5544CE002A9AA6 /* George Bush Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7223B981B5544CF002A9AA6 /* Build configuration list for PBXNativeTarget "George Bush Simulator" */;
+			buildPhases = (
+				D7223B751B5544CE002A9AA6 /* Sources */,
+				D7223B761B5544CE002A9AA6 /* Frameworks */,
+				D7223B771B5544CE002A9AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "George Bush Simulator";
+			productName = "George Bush Simulator";
+			productReference = D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7223B8D1B5544CF002A9AA6 /* George Bush SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7223B9B1B5544CF002A9AA6 /* Build configuration list for PBXNativeTarget "George Bush SimulatorTests" */;
+			buildPhases = (
+				D7223B8A1B5544CF002A9AA6 /* Sources */,
+				D7223B8B1B5544CF002A9AA6 /* Frameworks */,
+				D7223B8C1B5544CF002A9AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7223B901B5544CF002A9AA6 /* PBXTargetDependency */,
+			);
+			name = "George Bush SimulatorTests";
+			productName = "George Bush SimulatorTests";
+			productReference = D7223B8E1B5544CF002A9AA6 /* George Bush SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7223B711B5544CE002A9AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Camper;
+				TargetAttributes = {
+					D7223B781B5544CE002A9AA6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D7223B8D1B5544CF002A9AA6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D7223B781B5544CE002A9AA6;
+					};
+				};
+			};
+			buildConfigurationList = D7223B741B5544CE002A9AA6 /* Build configuration list for PBXProject "George Bush Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7223B701B5544CE002A9AA6;
+			productRefGroup = D7223B7A1B5544CE002A9AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7223B781B5544CE002A9AA6 /* George Bush Simulator */,
+				D7223B8D1B5544CF002A9AA6 /* George Bush SimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7223B771B5544CE002A9AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */,
+				D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */,
+				D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7223B8C1B5544CF002A9AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7223B751B5544CE002A9AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7223B811B5544CF002A9AA6 /* ViewController.swift in Sources */,
+				D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7223B8A1B5544CF002A9AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7223B951B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7223B901B5544CF002A9AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7223B781B5544CE002A9AA6 /* George Bush Simulator */;
+			targetProxy = D7223B8F1B5544CF002A9AA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7223B821B5544CF002A9AA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7223B831B5544CF002A9AA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7223B881B5544CF002A9AA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7223B961B5544CF002A9AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7223B971B5544CF002A9AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7223B991B5544CF002A9AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "George Bush Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7223B9A1B5544CF002A9AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "George Bush Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7223B9C1B5544CF002A9AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "George Bush SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/George Bush Simulator.app/George Bush Simulator";
+			};
+			name = Debug;
+		};
+		D7223B9D1B5544CF002A9AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "George Bush SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/George Bush Simulator.app/George Bush Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7223B741B5544CE002A9AA6 /* Build configuration list for PBXProject "George Bush Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7223B961B5544CF002A9AA6 /* Debug */,
+				D7223B971B5544CF002A9AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7223B981B5544CF002A9AA6 /* Build configuration list for PBXNativeTarget "George Bush Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7223B991B5544CF002A9AA6 /* Debug */,
+				D7223B9A1B5544CF002A9AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7223B9B1B5544CF002A9AA6 /* Build configuration list for PBXNativeTarget "George Bush SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7223B9C1B5544CF002A9AA6 /* Debug */,
+				D7223B9D1B5544CF002A9AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7223B711B5544CE002A9AA6 /* Project object */;
+}
