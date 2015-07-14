@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D70A17DF1B554F2100865847 /* spooks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D70A17DE1B554F2100865847 /* spooks.mp3 */; };
+		D719BB5F1B55524A00E73B5D /* spooks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D719BB5E1B55524A00E73B5D /* spooks.mp3 */; };
 		D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */; };
 		D7223B811B5544CF002A9AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B801B5544CF002A9AA6 /* ViewController.swift */; };
 		D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7223B821B5544CF002A9AA6 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		D70A17DE1B554F2100865847 /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spooks.mp3; sourceTree = "<group>"; };
+		D719BB5E1B55524A00E73B5D /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spooks.mp3; sourceTree = "<group>"; };
 		D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "George Bush Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7223B7D1B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		D7223B7C1B5544CF002A9AA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D719BB5E1B55524A00E73B5D /* spooks.mp3 */,
 				D7223BA21B555211002A9AA6 /* BushDidTitanic.jpg */,
 				D74F51891B554D2300D3DF69 /* logo.jpg */,
 				D7223B7D1B5544CF002A9AA6 /* Info.plist */,
@@ -205,6 +208,7 @@
 				D7223B841B5544CF002A9AA6 /* Main.storyboard in Resources */,
 				D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */,
 				D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */,
+				D719BB5F1B55524A00E73B5D /* spooks.mp3 in Resources */,
 				D70A17DF1B554F2100865847 /* spooks.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
