@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         performSegueWithIdentifier("startSim", sender: self)
     }
 
-
+    @IBAction func spooks(sender: AnyObject) {
+        spooks.play()
+    }
+    
 }
 
