@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		D70174A01B56985E005448D5 /* InsurgentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsurgentsViewController.swift; sourceTree = "<group>"; };
-		D70174A21B569E39005448D5 /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spooks.mp3; sourceTree = "<group>"; };
+		D70174A21B569E39005448D5 /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = spooks.mp3; path = "/Users/Camper/Desktop/George-Bush-Simulator/George Bush Simulator/spooks.mp3"; sourceTree = "<absolute>"; };
 		D70A17DE1B554F2100865847 /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spooks.mp3; sourceTree = "<group>"; };
 		D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "George Bush Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7223B7D1B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
