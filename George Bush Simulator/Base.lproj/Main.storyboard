@@ -46,6 +46,87 @@
             </objects>
             <point key="canvasLocation" x="94" y="304"/>
         </scene>
+        <!--Options View Controller-->
+        <scene sceneID="nzr-kK-jfO">
+            <objects>
+                <viewController id="VjW-vG-un7" customClass="OptionsViewController" customModule="George_Bush_Simulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8yz-4C-KrU"/>
+                        <viewControllerLayoutGuide type="bottom" id="aMz-kW-gCs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5mZ-pK-Oy0">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8R-XM-eLp">
+                                <rect key="frame" x="26" y="89" width="104" height="30"/>
+                                <state key="normal" title="Arm insurgents">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="armInsurgents:" destination="VjW-vG-un7" eventType="touchUpInside" id="HxG-AV-Xih"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvG-nX-J0m">
+                                <rect key="frame" x="191" y="89" width="126" height="30"/>
+                                <state key="normal" title="Invent a new word">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="newWord:" destination="VjW-vG-un7" eventType="touchUpInside" id="JG6-Ak-rLr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gg3-oz-YtT">
+                                <rect key="frame" x="350" y="89" width="192" height="30"/>
+                                <state key="normal" title="Invade a third world country">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="invade:" destination="VjW-vG-un7" eventType="touchUpInside" id="peq-MI-yd9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A6-jl-ju1">
+                                <rect key="frame" x="213" y="206" width="83" height="30"/>
+                                <state key="normal" title="Dodge shoe">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dodgeShoe:" destination="VjW-vG-un7" eventType="touchUpInside" id="ATj-QJ-6my"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6v-0Q-scw">
+                                <rect key="frame" x="367" y="206" width="158" height="30"/>
+                                <state key="normal" title="Say something illogical">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saySomething:" destination="VjW-vG-un7" eventType="touchUpInside" id="fWm-QP-CK1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello there, George Bush. The USA and the world are in your hands. You have many options. What do you want to do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aka-af-2lb">
+                                <rect key="frame" x="26" y="12" width="516" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pS5-o0-hON">
+                                <rect key="frame" x="11" y="206" width="135" height="30"/>
+                                <state key="normal" title="Do 9/11 and Titanic">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doTitanic:" destination="VjW-vG-un7" eventType="touchUpInside" id="soh-6K-pKO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b12-rZ-0jx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="304"/>
+        </scene>
     </scenes>
     <resources>
         <image name="BushDidTitanic.jpg" width="552" height="467"/>
