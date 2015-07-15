@@ -43,14 +43,14 @@ class DodgeShoeViewController: UIViewController {
         var y = shoe.frame.origin.y
         while(!(x == width/2 && y == height/2)) {
             if(x > width/2) {
-                x = x - .1
+                //x = x - .1
             } else if(x < width/2) {
-                x = x + .1
+                //x = x + .1
             }
             if(y > height/2) {
-                y = y - .1
+                //y = y - .1
             } else if(y < height/2) {
-                y = y + .1
+                //y = y + .1
             }
             shoe.frame.origin.x = x
             shoe.frame.origin.y = y
