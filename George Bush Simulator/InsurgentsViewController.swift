@@ -18,12 +18,12 @@ class InsurgentsViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var t = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(1, target: self,selector: Selector("update"), userInfo: nil, repeats: true)
         exit.hidden = true
     }
     func update(){
         if time > 0{
-            time++;
+            time--;
             timer.text = String(time)
         }
         else{

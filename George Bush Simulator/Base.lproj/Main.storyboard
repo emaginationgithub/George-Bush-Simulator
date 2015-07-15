@@ -57,7 +57,7 @@
         <!--Insurgents View Controller-->
         <scene sceneID="iRA-wi-6bK">
             <objects>
-                <viewController id="8AO-B4-4es" customClass="InsurgentsViewController" sceneMemberID="viewController">
+                <viewController id="8AO-B4-4es" customClass="InsurgentsViewController" customModule="George_Bush_Simulator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6zx-UG-Wd1"/>
                         <viewControllerLayoutGuide type="bottom" id="ucf-Zl-GdN"/>
