@@ -31,5 +31,7 @@ class ViewController: UIViewController {
         spooks.play()
     }
     
+    @IBAction func Play(sender: AnyObject) {
+    }
 }
 
