@@ -27,6 +27,10 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="Play:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="B78-48-g86"/>
+                                    <segue destination="VjW-vG-un7" kind="modal" identifier="startSim" id="hz2-HS-H3Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7z-G0-HrP">
                                 <rect key="frame" x="464" y="-10" width="50" height="30"/>
@@ -124,6 +128,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DSy-bn-DbE"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b12-rZ-0jx" userLabel="First Responder" sceneMemberID="firstResponder"/>
