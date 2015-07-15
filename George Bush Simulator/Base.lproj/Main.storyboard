@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="783" y="304"/>
         </scene>
-        <!--View Controller-->
+        <!--Dodge Shoe View Controller-->
         <scene sceneID="jc9-0R-t2V">
             <objects>
-                <viewController id="lJX-I6-2Uq" sceneMemberID="viewController">
+                <viewController id="lJX-I6-2Uq" customClass="DodgeShoeViewController" customModule="George_Bush_Simulator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1DZ-U0-feG"/>
                         <viewControllerLayoutGuide type="bottom" id="Plb-dN-R27"/>
@@ -146,9 +146,21 @@
                     <view key="view" contentMode="scaleToFill" id="k4A-vK-EhD">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoe1.png" translatesAutoresizingMaskIntoConstraints="NO" id="n3F-9W-4av">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoe.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4u1-hk-MaJ">
+                                <rect key="frame" x="460" y="113" width="108" height="65"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="imageView" destination="n3F-9W-4av" id="aFX-t2-1tQ"/>
+                        <outlet property="shoe" destination="4u1-hk-MaJ" id="WQY-7y-btm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLd-hd-xjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -157,6 +169,8 @@
     </scenes>
     <resources>
         <image name="BushDidTitanic.jpg" width="552" height="467"/>
+        <image name="shoe.jpg" width="700" height="467"/>
+        <image name="shoe1.png" width="300" height="169"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

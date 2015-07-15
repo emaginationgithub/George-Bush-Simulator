@@ -22,6 +22,7 @@
 		D72E25B01B569CB4003BB3E1 /* shoe3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */; };
 		D72E25B11B569CB4003BB3E1 /* shoe2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */; };
 		D72E25B21B569CB4003BB3E1 /* shoe1.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E25AF1B569CB4003BB3E1 /* shoe1.png */; };
+		D72E25B41B56A18F003BB3E1 /* shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72E25B31B56A18F003BB3E1 /* shoe.jpg */; };
 		D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74F51891B554D2300D3DF69 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe3.jpg; sourceTree = "<group>"; };
 		D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe2.jpg; sourceTree = "<group>"; };
 		D72E25AF1B569CB4003BB3E1 /* shoe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe1.png; sourceTree = "<group>"; };
+		D72E25B31B56A18F003BB3E1 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpg; sourceTree = "<group>"; };
 		D74F51891B554D2300D3DF69 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		D7223B7C1B5544CF002A9AA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D72E25B31B56A18F003BB3E1 /* shoe.jpg */,
 				D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */,
 				D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */,
 				D72E25AF1B569CB4003BB3E1 /* shoe1.png */,
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72E25B41B56A18F003BB3E1 /* shoe.jpg in Resources */,
 				D72E25A61B5693F7003BB3E1 /* BushDidTitanic.jpg in Resources */,
 				D72E25B11B569CB4003BB3E1 /* shoe2.jpg in Resources */,
 				D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */,
