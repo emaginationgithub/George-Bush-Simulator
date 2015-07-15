@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70174A11B56985E005448D5 /* InsurgentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70174A01B56985E005448D5 /* InsurgentsViewController.swift */; };
 		D70A17DF1B554F2100865847 /* spooks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D70A17DE1B554F2100865847 /* spooks.mp3 */; };
 		D719BB5F1B55524A00E73B5D /* spooks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D719BB5E1B55524A00E73B5D /* spooks.mp3 */; };
 		D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B7E1B5544CF002A9AA6 /* AppDelegate.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70174A01B56985E005448D5 /* InsurgentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsurgentsViewController.swift; sourceTree = "<group>"; };
 		D70A17DE1B554F2100865847 /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spooks.mp3; sourceTree = "<group>"; };
 		D719BB5E1B55524A00E73B5D /* spooks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spooks.mp3; sourceTree = "<group>"; };
 		D7223B791B5544CE002A9AA6 /* George Bush Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "George Bush Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 				D72E25AB1B569885003BB3E1 /* DodgeShoeViewController.swift */,
 				D7223B821B5544CF002A9AA6 /* Main.storyboard */,
 				D7223B851B5544CF002A9AA6 /* Images.xcassets */,
+				D70174A01B56985E005448D5 /* InsurgentsViewController.swift */,
 				D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */,
 				D7223B7C1B5544CF002A9AA6 /* Supporting Files */,
 			);
@@ -236,6 +239,7 @@
 				D72E25AA1B569719003BB3E1 /* OptionsViewController.swift in Sources */,
 				D72E25AC1B569885003BB3E1 /* DodgeShoeViewController.swift in Sources */,
 				D7223B811B5544CF002A9AA6 /* ViewController.swift in Sources */,
+				D70174A11B56985E005448D5 /* InsurgentsViewController.swift in Sources */,
 				D7223B7F1B5544CF002A9AA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
