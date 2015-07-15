@@ -33,4 +33,6 @@ class InsurgentsViewController: UIViewController{
     @IBAction func cookie(sender: AnyObject) {
         clicks++;
     }
+    @IBAction func exit(sender: AnyObject) {
+    }
 }

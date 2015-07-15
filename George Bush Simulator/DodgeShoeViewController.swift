@@ -10,6 +10,7 @@ import UIKit
 
 class DodgeShoeViewController: UIViewController {
 
+    @IBOutlet weak var back: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +33,6 @@ class DodgeShoeViewController: UIViewController {
     }
     */
 
+    @IBAction func back(sender: AnyObject) {
+    }
 }
