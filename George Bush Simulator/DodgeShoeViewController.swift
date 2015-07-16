@@ -12,6 +12,11 @@ import CoreMotion
 class DodgeShoeViewController: UIViewController {
     @IBOutlet weak var background: UIImageView!
     @IBOutlet weak var shoe: UIImageView!
+    
+    var width:CGFloat = 0.0
+    var height:CGFloat = 0.0
+    
+
     @IBOutlet weak var back: UIButton!
     
     var width:CGFloat = 0.0
