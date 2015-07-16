@@ -19,9 +19,6 @@ class DodgeShoeViewController: UIViewController {
 
     @IBOutlet weak var back: UIButton!
     
-    var width:CGFloat = 0.0
-    var height:CGFloat = 0.0
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -85,7 +82,7 @@ class DodgeShoeViewController: UIViewController {
             
             self.shoe.frame = shoeArea
             }, completion: { finished in
-                back.hidden = false
+                self.back.hidden = false
         })
     }
     
