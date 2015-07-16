@@ -207,6 +207,9 @@
                                     <segue destination="lJX-I6-2Uq" kind="modal" id="ka8-Cd-4Nt"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="steve.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="q3a-66-vIq">
+                                <rect key="frame" x="534" y="9" width="18" height="22"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -215,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b12-rZ-0jx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="783" y="304"/>
+            <point key="canvasLocation" x="824" y="312"/>
         </scene>
         <!--Nonsense View Controller-->
         <scene sceneID="sdt-Kd-ZDd">
@@ -318,6 +321,7 @@
         <image name="shoe.jpg" width="700" height="467"/>
         <image name="shoe1.png" width="300" height="169"/>
         <image name="speechBubble.png" width="640" height="548"/>
+        <image name="steve.jpeg" width="640" height="640"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
