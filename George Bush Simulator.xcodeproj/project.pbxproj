@@ -24,6 +24,7 @@
 		D72E25B21B569CB4003BB3E1 /* shoe1.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E25AF1B569CB4003BB3E1 /* shoe1.png */; };
 		D72E25B41B56A18F003BB3E1 /* shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72E25B31B56A18F003BB3E1 /* shoe.jpg */; };
 		D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74F51891B554D2300D3DF69 /* logo.jpg */; };
+		D7B3D0551B56A3E20085C8DE /* shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7B3D0541B56A3E20085C8DE /* shoe.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		D72E25AF1B569CB4003BB3E1 /* shoe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe1.png; sourceTree = "<group>"; };
 		D72E25B31B56A18F003BB3E1 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpg; sourceTree = "<group>"; };
 		D74F51891B554D2300D3DF69 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		D7B3D0541B56A3E20085C8DE /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shoe.jpg; path = "/Users/Camper/Desktop/George-Bush-Simulator/George Bush Simulator/shoe.jpg"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,8 @@
 		D7223B7C1B5544CF002A9AA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D72E25B31B56A18F003BB3E1 /* shoe.jpg */,
+				D7B3D0541B56A3E20085C8DE /* shoe.jpg */,
+				D70174A21B569E39005448D5 /* spooks.mp3 */,
 				D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */,
 				D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */,
 				D72E25AF1B569CB4003BB3E1 /* shoe1.png */,
@@ -233,6 +236,7 @@
 				D72E25B21B569CB4003BB3E1 /* shoe1.png in Resources */,
 				D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */,
 				D70A17DF1B554F2100865847 /* spooks.mp3 in Resources */,
+				D7B3D0551B56A3E20085C8DE /* shoe.jpg in Resources */,
 				D70174A31B569E39005448D5 /* spooks.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
