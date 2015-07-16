@@ -18,6 +18,9 @@ class OptionsViewController: UIViewController {
         meme = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path!), error: nil)
         meme.prepareToPlay()
     }
+    @IBAction func memes(sender: AnyObject) {
+        meme.play()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

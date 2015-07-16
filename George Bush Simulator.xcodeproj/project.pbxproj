@@ -134,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				D71C27461B57F5710017E30D /* ᕕ( ᐛ )ᕗ HAPPY AT THE SPEED OF LIGHT.mp3 */,
+				D7555A6C1B57F4E000EC1155 /* steve.jpeg */,
 				D7CEEBCD1B57EDBB00E59F12 /* ipad.png */,
 				D7258EE51B57EA140021575C /* speechBubble.png */,
 				D7258EDF1B57E6B60021575C /* ovalOfficeDesk.jpg */,
