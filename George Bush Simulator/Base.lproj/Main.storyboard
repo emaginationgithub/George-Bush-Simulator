@@ -66,15 +66,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5e4-7q-e4Z">
-                                <rect key="frame" x="261" y="145" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="cookie:" destination="8AO-B4-4es" eventType="touchDown" id="NXL-7Z-icY"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7M-Ts-VfT">
                                 <rect key="frame" x="0.0" y="28" width="42" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -88,13 +79,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmv-Vs-nmv">
-                                <rect key="frame" x="522" y="20" width="46" height="30"/>
+                                <rect key="frame" x="261" y="145" width="46" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="exit:" destination="8AO-B4-4es" eventType="touchUpInside" id="OCb-fi-q5v"/>
                                     <segue destination="VjW-vG-un7" kind="modal" id="8wH-7Q-fCQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5e4-7q-e4Z">
+                                <rect key="frame" x="181" y="-10" width="296" height="330"/>
+                                <state key="normal" image="bad.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cookie:" destination="8AO-B4-4es" eventType="touchDown" id="NXL-7Z-icY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -217,6 +217,51 @@
             </objects>
             <point key="canvasLocation" x="783" y="304"/>
         </scene>
+        <!--Nonsense View Controller-->
+        <scene sceneID="sdt-Kd-ZDd">
+            <objects>
+                <viewController id="ERl-1k-7Xy" customClass="NonsenseViewController" customModule="George_Bush_Simulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p0k-f7-h5z"/>
+                        <viewControllerLayoutGuide type="bottom" id="J3M-68-sBi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1V8-4H-bnZ">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzd-B0-YkH">
+                                <rect key="frame" x="261" y="20" width="46" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMP-db-JS7">
+                                <rect key="frame" x="261" y="145" width="46" height="30"/>
+                                <state key="normal" title="Say">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="say:" destination="ERl-1k-7Xy" eventType="touchDown" id="Kyk-Z7-sT4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHK-VQ-EO1">
+                                <rect key="frame" x="263" y="291" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="thing" destination="kHK-VQ-EO1" id="QOy-Qq-AV2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2dT-Vo-3Ta" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517" y="266"/>
+        </scene>
         <!--Dodge Shoe View Controller-->
         <scene sceneID="jc9-0R-t2V">
             <objects>
@@ -229,23 +274,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4O-VM-rRS">
-                                <rect key="frame" x="318" y="124" width="34" height="30"/>
-                                <state key="normal" title="back">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="back:" destination="lJX-I6-2Uq" eventType="touchUpInside" id="5N9-ZD-cSy"/>
-                                    <segue destination="VjW-vG-un7" kind="modal" id="HH7-FA-CKY"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoe1.png" translatesAutoresizingMaskIntoConstraints="NO" id="n3F-9W-4av">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoe.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4u1-hk-MaJ">
+                                <rect key="frame" x="460" y="113" width="108" height="65"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n3F-9W-4av" firstAttribute="leading" secondItem="k4A-vK-EhD" secondAttribute="leading" id="1JI-Ex-dWe"/>
+                            <constraint firstAttribute="trailing" secondItem="n3F-9W-4av" secondAttribute="trailing" id="Bk7-2N-Ofa"/>
+                            <constraint firstItem="Plb-dN-R27" firstAttribute="top" secondItem="n3F-9W-4av" secondAttribute="bottom" id="ruX-A6-JUO"/>
+                            <constraint firstItem="n3F-9W-4av" firstAttribute="top" secondItem="k4A-vK-EhD" secondAttribute="top" id="um1-5o-C6U"/>
+                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="back" destination="a4O-VM-rRS" id="VQ9-Wr-8Ic"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLd-hd-xjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
