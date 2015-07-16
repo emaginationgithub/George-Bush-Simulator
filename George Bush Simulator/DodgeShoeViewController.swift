@@ -19,11 +19,11 @@ class DodgeShoeViewController: UIViewController {
         height = screenSize.height;
         
         // Do any additional setup after loading the view.
-        var alert = UIAlertController(title: "Begin", message: "Tilt your device to dodge the shoe being thrown at you", preferredStyle: UIAlertControllerStyle.Alert)
-        var action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default) {
+        let alert = UIAlertController(title: "Begin", message: "Tilt your device to dodge the shoe being thrown at you", preferredStyle: UIAlertControllerStyle.Alert)
+        var action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: {
             UIAlertAction in
             self.dismissed()
-        }
+        })
         alert.addAction(action)
         self.presentViewController(alert, animated: true, completion: nil)
     }
