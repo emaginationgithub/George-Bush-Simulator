@@ -34,6 +34,9 @@ extension String {
 
 class NonsenseViewController: UIViewController{
     
+    let prefix:[String] = ["You are ", "I am ", "Men are ", "Women are "]
+    let middle:[String] = []
+    
     @IBOutlet weak var thing: UILabel!
     @IBAction func say(sender: AnyObject) {
         
