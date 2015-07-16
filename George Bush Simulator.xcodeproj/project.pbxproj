@@ -63,14 +63,14 @@
 		D7258EE51B57EA140021575C /* speechBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechBubble.png; sourceTree = "<group>"; };
 		D72DB1821B57E6B500A7701C /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
 		D72DB1841B57E87700A7701C /* NonsenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonsenseViewController.swift; sourceTree = "<group>"; };
-		D72DB1861B57F1C800A7701C /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bad.png; path = "/Users/Camper/Desktop/George-Bush-Simulator/George Bush Simulator/bad.png"; sourceTree = "<absolute>"; };
+		D72DB1861B57F1C800A7701C /* bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad.png; sourceTree = "<group>"; };
 		D72E25A51B5693F7003BB3E1 /* BushDidTitanic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BushDidTitanic.jpg; sourceTree = "<group>"; };
 		D72E25A91B569719003BB3E1 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		D72E25AB1B569885003BB3E1 /* DodgeShoeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DodgeShoeViewController.swift; sourceTree = "<group>"; };
 		D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe3.jpg; sourceTree = "<group>"; };
 		D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe2.jpg; sourceTree = "<group>"; };
 		D72E25AF1B569CB4003BB3E1 /* shoe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe1.png; sourceTree = "<group>"; };
-		D72E25B31B56A18F003BB3E1 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpg; sourceTree = "<group>"; };
+		D72E25B31B56A18F003BB3E1 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shoe.jpg; path = "/Users/Camper/Desktop/George-Bush-Simulator/George Bush Simulator/shoe.jpg"; sourceTree = "<absolute>"; };
 		D74F51891B554D2300D3DF69 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		D7555A6A1B57F43E00EC1155 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpg; sourceTree = "<group>"; };
 		D7555A6C1B57F4E000EC1155 /* steve.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve.jpeg; sourceTree = "<group>"; };
@@ -134,12 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				D71C27461B57F5710017E30D /* ᕕ( ᐛ )ᕗ HAPPY AT THE SPEED OF LIGHT.mp3 */,
+				D72E25B31B56A18F003BB3E1 /* shoe.jpg */,
+				D72DB1861B57F1C800A7701C /* bad.png */,
 				D7555A6C1B57F4E000EC1155 /* steve.jpeg */,
 				D7CEEBCD1B57EDBB00E59F12 /* ipad.png */,
 				D7258EE51B57EA140021575C /* speechBubble.png */,
 				D7258EDF1B57E6B60021575C /* ovalOfficeDesk.jpg */,
-				D72E25B31B56A18F003BB3E1 /* shoe.jpg */,
-				D72DB1861B57F1C800A7701C /* bad.png */,
 				D70174A21B569E39005448D5 /* spooks.mp3 */,
 				D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */,
 				D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */,
