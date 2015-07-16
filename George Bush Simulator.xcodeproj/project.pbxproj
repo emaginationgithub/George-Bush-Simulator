@@ -16,6 +16,8 @@
 		D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7223B851B5544CF002A9AA6 /* Images.xcassets */; };
 		D7223B891B5544CF002A9AA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */; };
 		D7223B951B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */; };
+		D7258EE01B57E6B60021575C /* ovalOfficeDesk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7258EDF1B57E6B60021575C /* ovalOfficeDesk.jpg */; };
+		D7258EE61B57EA140021575C /* speechBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = D7258EE51B57EA140021575C /* speechBubble.png */; };
 		D72E25A61B5693F7003BB3E1 /* BushDidTitanic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72E25A51B5693F7003BB3E1 /* BushDidTitanic.jpg */; };
 		D72E25AA1B569719003BB3E1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E25A91B569719003BB3E1 /* OptionsViewController.swift */; };
 		D72E25AC1B569885003BB3E1 /* DodgeShoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E25AB1B569885003BB3E1 /* DodgeShoeViewController.swift */; };
@@ -24,6 +26,7 @@
 		D72E25B21B569CB4003BB3E1 /* shoe1.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E25AF1B569CB4003BB3E1 /* shoe1.png */; };
 		D72E25B41B56A18F003BB3E1 /* shoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D72E25B31B56A18F003BB3E1 /* shoe.jpg */; };
 		D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D74F51891B554D2300D3DF69 /* logo.jpg */; };
+		D7CEEBCE1B57EDBB00E59F12 /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CEEBCD1B57EDBB00E59F12 /* ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,8 @@
 		D7223B8E1B5544CF002A9AA6 /* George Bush SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "George Bush SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7223B931B5544CF002A9AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7223B941B5544CF002A9AA6 /* George_Bush_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = George_Bush_SimulatorTests.swift; sourceTree = "<group>"; };
+		D7258EDF1B57E6B60021575C /* ovalOfficeDesk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ovalOfficeDesk.jpg; sourceTree = "<group>"; };
+		D7258EE51B57EA140021575C /* speechBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechBubble.png; sourceTree = "<group>"; };
 		D72E25A51B5693F7003BB3E1 /* BushDidTitanic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BushDidTitanic.jpg; sourceTree = "<group>"; };
 		D72E25A91B569719003BB3E1 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		D72E25AB1B569885003BB3E1 /* DodgeShoeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DodgeShoeViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		D72E25AF1B569CB4003BB3E1 /* shoe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe1.png; sourceTree = "<group>"; };
 		D72E25B31B56A18F003BB3E1 /* shoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoe.jpg; sourceTree = "<group>"; };
 		D74F51891B554D2300D3DF69 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		D7CEEBCD1B57EDBB00E59F12 /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 				D72E25A91B569719003BB3E1 /* OptionsViewController.swift */,
 				D72E25AB1B569885003BB3E1 /* DodgeShoeViewController.swift */,
 				D7223B821B5544CF002A9AA6 /* Main.storyboard */,
+				D7CEEBCD1B57EDBB00E59F12 /* ipad.png */,
 				D7223B851B5544CF002A9AA6 /* Images.xcassets */,
 				D70174A01B56985E005448D5 /* InsurgentsViewController.swift */,
 				D7223B871B5544CF002A9AA6 /* LaunchScreen.xib */,
@@ -115,6 +122,8 @@
 		D7223B7C1B5544CF002A9AA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7258EE51B57EA140021575C /* speechBubble.png */,
+				D7258EDF1B57E6B60021575C /* ovalOfficeDesk.jpg */,
 				D72E25B31B56A18F003BB3E1 /* shoe.jpg */,
 				D72E25AD1B569CB4003BB3E1 /* shoe3.jpg */,
 				D72E25AE1B569CB4003BB3E1 /* shoe2.jpg */,
@@ -224,7 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72E25B41B56A18F003BB3E1 /* shoe.jpg in Resources */,
+				D7CEEBCE1B57EDBB00E59F12 /* ipad.png in Resources */,
 				D72E25A61B5693F7003BB3E1 /* BushDidTitanic.jpg in Resources */,
+				D7258EE61B57EA140021575C /* speechBubble.png in Resources */,
 				D72E25B11B569CB4003BB3E1 /* shoe2.jpg in Resources */,
 				D74F518A1B554D2300D3DF69 /* logo.jpg in Resources */,
 				D72E25B01B569CB4003BB3E1 /* shoe3.jpg in Resources */,
@@ -233,6 +244,7 @@
 				D72E25B21B569CB4003BB3E1 /* shoe1.png in Resources */,
 				D7223B861B5544CF002A9AA6 /* Images.xcassets in Resources */,
 				D70A17DF1B554F2100865847 /* spooks.mp3 in Resources */,
+				D7258EE01B57E6B60021575C /* ovalOfficeDesk.jpg in Resources */,
 				D70174A31B569E39005448D5 /* spooks.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
