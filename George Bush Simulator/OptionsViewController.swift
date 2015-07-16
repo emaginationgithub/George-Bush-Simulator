@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OptionsViewController: UIViewController {
-
+    var meme:AVAudioPlayer = AVAudioPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        var path = NSBundle.mainBundle().pathForResource("spooks", ofType: "mp3")
+        meme = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path!), error: nil)
+        meme.prepareToPlay()
     }
 
     override func didReceiveMemoryWarning() {
