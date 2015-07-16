@@ -12,26 +12,31 @@ class InsurgentsViewController: UIViewController{
     var time = 12
     
     @IBOutlet weak var timer: UILabel!
+    @IBOutlet weak var score: UILabel!
     
     @IBOutlet weak var exit: UIButton!
+    @IBOutlet weak var clickme: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         NSTimer.scheduledTimerWithTimeInterval(1, target: self,selector: Selector("update"), userInfo: nil, repeats: true)
         exit.hidden = true
+        clickme.hidden = false
     }
     func update(){
         if time > 0{
-            time--;
+            time--
             timer.text = String(time)
         }
         else{
             exit.hidden = false
+            clickme.hidden = true
         }
     }
     @IBAction func cookie(sender: AnyObject) {
-        clicks++;
+        clicks++
+        score.text = String(clicks)
     }
     @IBAction func exit(sender: AnyObject) {
     }
