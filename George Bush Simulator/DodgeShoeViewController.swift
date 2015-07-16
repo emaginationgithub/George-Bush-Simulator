@@ -9,12 +9,8 @@
 import UIKit
 
 class DodgeShoeViewController: UIViewController {
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var shoe: UIImageView!
-    
-    var width:CGFloat = 0.0
-    var height:CGFloat = 0.0
-    
+
+    @IBOutlet weak var back: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -67,4 +63,6 @@ class DodgeShoeViewController: UIViewController {
     }
     */
 
+    @IBAction func back(sender: AnyObject) {
+    }
 }

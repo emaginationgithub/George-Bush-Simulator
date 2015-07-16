@@ -38,4 +38,6 @@ class InsurgentsViewController: UIViewController{
         clicks++
         score.text = String(clicks)
     }
+    @IBAction func exit(sender: AnyObject) {
+    }
 }

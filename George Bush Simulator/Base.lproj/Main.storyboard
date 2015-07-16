@@ -19,19 +19,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BushDidTitanic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xRe-xI-ag3">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="359"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITC-vb-Zru">
-                                <rect key="frame" x="220" y="120" width="129" height="80"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <size key="titleShadowOffset" width="3" height="3"/>
-                                <state key="normal" title="Play">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="Play:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PSR-ND-8jw"/>
-                                    <segue destination="VjW-vG-un7" kind="modal" identifier="startSim" id="hz2-HS-H3Q"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7z-G0-HrP">
                                 <rect key="frame" x="464" y="-10" width="50" height="30"/>
                                 <state key="normal" title="spooks">
@@ -40,6 +27,19 @@
                                 </state>
                                 <connections>
                                     <action selector="spooks:" destination="vXZ-lx-hvc" eventType="touchDownRepeat" id="9eb-fA-XDW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITC-vb-Zru">
+                                <rect key="frame" x="220" y="120" width="129" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Play:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PSR-ND-8jw"/>
+                                    <segue destination="VjW-vG-un7" kind="modal" identifier="startSim" id="hz2-HS-H3Q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,20 +78,24 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7M-Ts-VfT">
                                 <rect key="frame" x="0.0" y="28" width="42" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHZ-77-91f">
                                 <rect key="frame" x="526" y="20" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmv-Vs-nmv">
                                 <rect key="frame" x="261" y="145" width="46" height="30"/>
-                                <state key="normal" title="Finish">
+                                <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="exit:" destination="8AO-B4-4es" eventType="touchUpInside" id="OCb-fi-q5v"/>
+                                    <segue destination="VjW-vG-un7" kind="modal" id="8wH-7Q-fCQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -167,10 +171,10 @@
                                     <action selector="saySomething:" destination="VjW-vG-un7" eventType="touchUpInside" id="fWm-QP-CK1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello there, George Bush. The USA and the world are in your hands. You have many options. What do you want to do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aka-af-2lb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello there, President George W. Bush. The USA and the world are in your hands. You have many options. What do you want to do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aka-af-2lb">
                                 <rect key="frame" x="26" y="12" width="516" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pS5-o0-hON">
@@ -221,8 +225,7 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="imageView" destination="n3F-9W-4av" id="aFX-t2-1tQ"/>
-                        <outlet property="shoe" destination="4u1-hk-MaJ" id="WQY-7y-btm"/>
+                        <outlet property="back" destination="a4O-VM-rRS" id="VQ9-Wr-8Ic"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLd-hd-xjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -232,12 +235,13 @@
     </scenes>
     <resources>
         <image name="BushDidTitanic.jpg" width="552" height="467"/>
-        <image name="shoe.jpg" width="700" height="467"/>
-        <image name="shoe1.png" width="300" height="169"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="8wH-7Q-fCQ"/>
+    </inferredMetricsTieBreakers>
 </document>
