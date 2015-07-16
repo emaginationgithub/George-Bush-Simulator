@@ -7,25 +7,50 @@
 //
 
 import UIKit
+import CoreMotion
 
 class DodgeShoeViewController: UIViewController {
-
+    @IBOutlet weak var background: UIImageView!
+    @IBOutlet weak var shoe: UIImageView!
     @IBOutlet weak var back: UIButton!
+    
+    var width:CGFloat = 0.0
+    var height:CGFloat = 0.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // Do any additional setup after loading the view.
+        //sendAlert()
+        var motionManager = CMMotionManager()
+        if motionManager.accelerometerAvailable == true {
+            // 2
+            motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue(), withHandler:{
+                data, error in
+                
+                // 3
+                if data.acceleration.x < -1.0 {
+                    self.shoe.image = UIImage(contentsOfFile: "shoe2.jpg")
+                }
+                    
+                else if data.acceleration.x > 1.0 {
+                    self.shoe.image = UIImage(contentsOfFile: "shoe3.jpg")
+                }
+                
+                else {
+                    self.shoe.image = UIImage(contentsOfFile: "shoe1.jpg")
+                }
+                
+            })
+            
+        }
+    }
+    override func viewDidAppear(animated: Bool) {
         var screenSize:CGRect = UIScreen.mainScreen().bounds
         width = screenSize.width;
         height = screenSize.height;
-        
-        // Do any additional setup after loading the view.
-        let alert = UIAlertController(title: "Begin", message: "Tilt your device to dodge the shoe being thrown at you", preferredStyle: UIAlertControllerStyle.Alert)
-        var action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: {
-            UIAlertAction in
-            self.dismissed()
-        })
-        alert.addAction(action)
-        self.presentViewController(alert, animated: true, completion: nil)
+        //NSLog("\(width)");
+        //NSLog("\(height)");
+        sendAlert()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,26 +58,34 @@ class DodgeShoeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func dismissed() ->Void {
-        shoe.hidden = false
-        var x = shoe.frame.origin.x
-        var y = shoe.frame.origin.y
-        while(!(x == width/2 && y == height/2)) {
-            if(x > width/2) {
-                //x = x - .1
-            } else if(x < width/2) {
-                //x = x + .1
-            }
-            if(y > height/2) {
-                //y = y - .1
-            } else if(y < height/2) {
-                //y = y + .1
-            }
-            shoe.frame.origin.x = x
-            shoe.frame.origin.y = y
-        }
+    func sendAlert() {
+        let alert = UIAlertController(title: "Begin", message: "Tilt your device to dodge the shoe being thrown at you.", preferredStyle: UIAlertControllerStyle.Alert)
+        let action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: {
+            alertAction in
+            self.dismissed()
+        })
+        alert.addAction(action)
+        self.presentViewController(alert, animated: true, completion: nil)
     }
     
+    func dismissed() ->Void {
+        //NSLog("Worked")
+        shoe.hidden = false;
+        var x = shoe.frame.origin.x
+        var y = shoe.frame.origin.y
+        UIView.animateWithDuration(0.7, delay: 0.1, options: .CurveEaseOut, animations: {
+            var shoeArea = self.shoe.frame
+            shoeArea.origin.x = self.width/3
+            shoeArea.origin.y = self.height/3
+            
+            self.shoe.frame = shoeArea
+            }, completion: { finished in
+                back.hidden = false
+        })
+    }
+    
+    @IBAction func goBack(sender: AnyObject) {
+    }
     /*
     // MARK: - Navigation
 
@@ -62,7 +95,4 @@ class DodgeShoeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    @IBAction func back(sender: AnyObject) {
-    }
 }

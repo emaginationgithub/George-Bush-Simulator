@@ -212,8 +212,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoe.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4u1-hk-MaJ">
-                                <rect key="frame" x="460" y="113" width="108" height="65"/>
+                                <rect key="frame" x="539" y="113" width="108" height="65"/>
                             </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cya-oQ-U27">
+                                <rect key="frame" x="261" y="145" width="35" height="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="lJX-I6-2Uq" eventType="touchUpInside" id="5xk-qD-0jp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -225,7 +234,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="back" destination="a4O-VM-rRS" id="VQ9-Wr-8Ic"/>
+                        <outlet property="back" destination="Cya-oQ-U27" id="rUy-DY-JJ2"/>
+                        <outlet property="background" destination="n3F-9W-4av" id="PAP-s6-hQR"/>
+                        <outlet property="shoe" destination="4u1-hk-MaJ" id="DrO-q9-l5V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLd-hd-xjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -235,6 +246,8 @@
     </scenes>
     <resources>
         <image name="BushDidTitanic.jpg" width="552" height="467"/>
+        <image name="shoe.jpg" width="700" height="467"/>
+        <image name="shoe1.png" width="300" height="169"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
